@@ -30,7 +30,7 @@ char level7[8] = { 0b11111, 0b11111, 0b11111, 0b11111,
 #define LCD_D6 13
 #define LCD_D7 6
 
-76
+
 void memory(void);
 void volume(void);
 void scrollText(void);
@@ -75,7 +75,7 @@ fscanf(mem_file,"%*s%s%*s", MemFree);
 printf("\x1B[2J");//brisanje ekrana
 
 
-77
+
 lcdPosition(lcd,0,0);
 lcdPrintf(lcd,"MemTotal-%sk",MemTotal);
 lcdPosition(lcd,0,1);
